@@ -1,26 +1,24 @@
 feeds:
   - name: custom
     path: ../feeds_dir/custom
-  - name: helloworld
-    uri: https://github.com/fw876/helloworld.git
-    branch: master
+  - name: immortalwrt_luci
+    uri: https://github.com/immortalwrt/luci.git
+    branch: openwrt-21.02
+    revision: 786e681d614ca9d4da771e993e9ba12f587c036f
+  - name: NueXini_Packages
+    uri: https://github.com/NueXini/NueXini_Packages
+    branch: main
+    revision: 5ad8ce257c854718c7f4f866542b5ba87bc1520f
 packages:
-  - luci-app-ssr-plus
   - luci-app-ddns
   - ddns-scripts
   - ddns-scripts-services
   - ddns-scripts_aliyun
-  - luci-app-uhttpd
+  - luci-app-cpufreq
+  - luci-app-openclash
+  - luci-app-autoreboot
   - dnsmasq-full
-  - luci-app-commands
-  - luci-app-mwan3
-  - luci-app-wireguard
-  - wireguard
-  - luci-app-eqos
-  - wireguard-tools
   - default-settings
-
-
 
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
@@ -30,4 +28,4 @@ diffconfig: |
   CONFIG_LUCI_LANG_zh_Hans=y
   CONFIG_BUSYBOX_CUSTOM=y
   CONFIG_BUSYBOX_CONFIG_FEATURE_FLOAT_SLEEP=y
-  CONFIG_KERNEL_IPQ_MEM_PROFILE=512
+  CONFIG_KERNEL_IPQ_MEM_PROFILE=0
