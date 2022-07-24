@@ -10,14 +10,20 @@ feeds:
     branch: main
     revision: 5ad8ce257c854718c7f4f866542b5ba87bc1520f
 packages:
-  - luci-app-ddns
   - ddns-scripts
   - ddns-scripts-services
   - ddns-scripts_aliyun
+  - luci-app-uhttpd
+  - dnsmasq-full
+  - luci-app-commands
+  - luci-app-mwan3
+  - luci-app-wireguard
+  - wireguard
+  - luci-app-eqos
   - luci-app-cpufreq
   - luci-app-openclash
   - luci-app-autoreboot
-  - dnsmasq-full
+  - wireguard-tools
   - default-settings
 
 diffconfig: |
