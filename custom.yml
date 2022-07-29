@@ -1,10 +1,6 @@
 feeds:
   - name: custom
     path: ../feeds_dir/custom
-  - name: immortalwrt_luci
-    uri: https://github.com/immortalwrt/luci.git
-    branch: openwrt-21.02
-    revision: 786e681d614ca9d4da771e993e9ba12f587c036f
   - name: NueXini_Packages
     uri: https://github.com/NueXini/NueXini_Packages
     branch: main
@@ -13,18 +9,10 @@ packages:
   - ddns-scripts
   - ddns-scripts-services
   - ddns-scripts_aliyun
-  - luci-app-uhttpd
   - dnsmasq-full
-  - luci-app-commands
-  - luci-app-mwan3
-  - luci-app-wireguard
-  - wireguard
-  - luci-app-eqos
   - luci-app-cpufreq
   - luci-app-openclash
   - luci-app-autoreboot
-  - wireguard-tools
-  - default-settings
 
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
