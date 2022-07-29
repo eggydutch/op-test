@@ -6,20 +6,40 @@ feeds:
     branch: main
     revision: 47a28f3d9479f37ea0e3dd0b33b93a8bf6bc1a1d
 packages:
-  - luci-app-ddns
-  - ddns-scripts
-  - ddns-scripts-services
-  - ddns-scripts_aliyun
   - dnsmasq-full
-  - luci-app-cpufreq
+  - kmod-crypto-aead
+  - kmod-crypto-aes
+  - kmod-crypto-gcm
+  - luci-app-accesscontrol
+  - luci-theme-argon-2102
+  - luci-app-argon-config
   - luci-app-openclash
+  - luci-app-passwall2
   - luci-app-autoreboot
+  - luci-app-ttyd
+  - luci-app-wol
+  - luci-app-argon-config
+  - luci-app-cpufreq
+  - luci-app-ramfree
+  - luci-app-qos
+  - luci-app-usb-printer
+  - luci-app-vsftp
+  - luci-app-vlmcsd
+  - luci-app-wrtbwmon
+  - luci-app-upnp
+  - luci-app-wifischedule
+  - luci-app-qbittorrent
+  - luci-app-transmission
+  - luci-app-diskman
+  - luci-app-hd-idle
+  - luci-app-gowebdav
+  - luci-app-cifsd
+  - luci-app-uugamebooster
 
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
   CONFIG_PACKAGE_wpad=n
   CONFIG_PACKAGE_dnsmasq=n
-  CONFIG_PACKAGE_luci-i18n-ddns-zh-cn=y
   CONFIG_LUCI_LANG_zh_Hans=y
   CONFIG_BUSYBOX_CUSTOM=y
   CONFIG_BUSYBOX_CONFIG_FEATURE_FLOAT_SLEEP=y
