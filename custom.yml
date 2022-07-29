@@ -6,6 +6,7 @@ feeds:
     branch: main
     revision: 47a28f3d9479f37ea0e3dd0b33b93a8bf6bc1a1d
 packages:
+  - luci-app-ddns
   - ddns-scripts
   - ddns-scripts-services
   - ddns-scripts_aliyun
