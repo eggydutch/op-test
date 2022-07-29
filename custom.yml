@@ -4,7 +4,7 @@ feeds:
   - name: NueXini_Packages
     uri: https://github.com/NueXini/NueXini_Packages
     branch: main
-    revision: 5ad8ce257c854718c7f4f866542b5ba87bc1520f
+    revision: 47a28f3d9479f37ea0e3dd0b33b93a8bf6bc1a1d
 packages:
   - ddns-scripts
   - ddns-scripts-services
