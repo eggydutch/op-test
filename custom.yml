@@ -9,9 +9,7 @@ packages:
   - dnsmasq-full
   - luci-app-accesscontrol
   - luci-theme-argon-2102
-  - luci-app-argon-config
   - luci-app-openclash
-  - luci-app-passwall2
   - luci-app-autoreboot
   - luci-app-ttyd
   - luci-app-wol
