@@ -3,8 +3,8 @@ feeds:
     path: ../feeds_dir/custom
   - name: NueXini_Packages
     uri: https://github.com/NueXini/NueXini_Packages
-    branch: main
-    revision: 47a28f3d9479f37ea0e3dd0b33b93a8bf6bc1a1d
+    # branch: main
+    # revision: 47a28f3d9479f37ea0e3dd0b33b93a8bf6bc1a1d
 packages:
   - dnsmasq-full
   - luci-app-accesscontrol
@@ -19,18 +19,6 @@ packages:
   - luci-app-ramfree
   - luci-app-qos
   - luci-app-usb-printer
-  - luci-app-vsftp
-  - luci-app-vlmcsd
-  - luci-app-wrtbwmon
-  - luci-app-upnp
-  - luci-app-wifischedule
-  - luci-app-qbittorrent
-  - luci-app-transmission
-  - luci-app-diskman
-  - luci-app-hd-idle
-  - luci-app-gowebdav
-  - luci-app-cifsd
-  - luci-app-uugamebooster
 
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
