@@ -14,6 +14,7 @@ packages:
   - luci-theme-argon-2102
   - luci-app-argon-config
   - luci-app-openclash
+  - luci-app-ddns
   - luci-app-passwall2
   - luci-app-autoreboot
   - luci-app-ttyd
@@ -22,6 +23,7 @@ packages:
   - luci-app-ramfree
   - luci-app-usb-printer
   - luci-app-vsftp
+  - luci-app-vlmcsd
   - luci-app-wrtbwmon
   - luci-app-upnp
   - luci-app-wifischedule
