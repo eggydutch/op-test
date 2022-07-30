@@ -3,7 +3,7 @@ feeds:
     path: ../feeds_dir/custom
   - name: NueXini_Packages
     uri: https://github.com/NueXini/NueXini_Packages.git
-    # branch: main
+    branch: main
     # revision: 47a28f3d9479f37ea0e3dd0b33b93a8bf6bc1a1d
 packages:
   - dnsmasq-full
