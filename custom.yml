@@ -7,9 +7,6 @@ feeds:
     revision: 47a28f3d9479f37ea0e3dd0b33b93a8bf6bc1a1d
 packages:
   - dnsmasq-full
-  - kmod-crypto-aead
-  - kmod-crypto-aes
-  - kmod-crypto-gcm
   - luci-app-accesscontrol
   - luci-theme-argon-2102
   - luci-app-argon-config
@@ -18,7 +15,6 @@ packages:
   - luci-app-autoreboot
   - luci-app-ttyd
   - luci-app-wol
-  - luci-app-argon-config
   - luci-app-cpufreq
   - luci-app-ramfree
   - luci-app-qos
