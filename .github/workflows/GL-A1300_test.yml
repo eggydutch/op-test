@@ -26,7 +26,7 @@ on:
 env:
   REPO_URL: https://github.com/zheshifandian/openwrt
   REPO_BRANCH: a1300
-  FEEDS_CONF: feeds.conf.default
+  FEEDS_CONF: ./config/gl.inet/A1300/feeds.conf.default
   CONFIG_FILE: ./config/gl.inet/A1300/GL-A1300.config
   DIY_P1_SH: ./config/gl.inet/A1300/diy-part1.sh
   DIY_P2_SH: ./config/gl.inet/A1300/diy-part2.sh
