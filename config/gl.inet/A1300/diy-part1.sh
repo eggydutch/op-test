@@ -44,16 +44,16 @@ pushd package/lean
 #git clone https://github.com/immortalwrt/luci/tree/openwrt-21.02/applications
 
 # Add Passwall
-git clone --depth=1 -b packages https://github.com/xiaorouji/openwrt-passwall
+#git clone --depth=1 -b packages https://github.com/xiaorouji/openwrt-passwall
 #git clone --depth=1 -b luci https://github.com/xiaorouji/openwrt-passwall
-git clone --depth=1 -b main https://github.com/xiaorouji/openwrt-passwall2
+#git clone --depth=1 -b main https://github.com/xiaorouji/openwrt-passwall2
 
 # Add OpenClash
-git clone --depth=1 -b master https://github.com/vernesong/OpenClash
+#git clone --depth=1 -b master https://github.com/vernesong/OpenClash
 
 # Add luci-theme-argon
-git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon
-rm -rf ../lean/luci-theme-argon
+#git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon
+#rm -rf ../lean/luci-theme-argon
 
 # Add VSSR(Hello World)
 #git clone https://github.com/jerrykuku/lua-maxminddb
