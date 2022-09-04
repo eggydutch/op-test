@@ -11,7 +11,16 @@ packages:
   - luci-app-openclash
   - luci-app-autoreboot
   - luci-app-cpufreq
+  - luci-app-passwall2
   - luci-app-ramfree
+  - luci-app-wifischedule
+  - luci-app-transmission
+  - transmission-web
+  - luci-app-diskman
+  - luci-app-hd-idle
+  - luci-app-gowebdav
+  - luci-app-vlmcsd
+  - luci-app-ttyd
   - default-settings
 
 diffconfig: |
