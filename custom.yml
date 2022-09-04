@@ -16,8 +16,6 @@ packages:
   - luci-app-wifischedule
   - luci-app-transmission
   - transmission-web
-  - luci-app-diskman
-  - luci-app-hd-idle
   - luci-app-gowebdav
   - luci-app-vlmcsd
   - luci-app-ttyd
