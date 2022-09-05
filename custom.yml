@@ -14,9 +14,6 @@ packages:
   - luci-app-passwall2
   - luci-app-ramfree
   - luci-app-wifischedule
-  - luci-app-transmission
-  - transmission-web
-  - luci-app-gowebdav
   - luci-app-vlmcsd
   - luci-app-ttyd
   - default-settings
