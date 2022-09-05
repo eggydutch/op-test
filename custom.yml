@@ -8,13 +8,27 @@ packages:
   - dnsmasq-full
   - luci-theme-argon-2102
   - luci-app-argon-config
+  - luci-app-cifsd
   - luci-app-openclash
+  - luci-app-vssr
+  - hysteria
+  - kcptun
   - luci-app-autoreboot
+  - luci-app-ttyd
+  - luci-app-wol
   - luci-app-cpufreq
   - luci-app-ramfree
-  - luci-app-wifischedule
+  - luci-app-usb-printer
   - luci-app-vlmcsd
-  - luci-app-ttyd
+  - luci-app-wrtbwmon
+  - luci-app-upnp
+  - luci-app-wifischedule
+  - luci-app-transmission
+  - transmission-web
+  - luci-app-diskman
+  - luci-app-hd-idle
+  - luci-app-gowebdav
+  - luci-app-uugamebooster
   - default-settings
 
 diffconfig: |
