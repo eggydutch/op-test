@@ -33,7 +33,6 @@ packages:
   - kmod-ip6tables-extra
   - kmod-ipt-account
   - kmod-ipt-chaos
-  - kmod-ipt-compat-xtables
   - kmod-ipt-condition
   - kmod-ipt-delude
   - kmod-ipt-dhcpmac
