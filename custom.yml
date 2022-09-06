@@ -49,12 +49,6 @@ packages:
   - kmod-ipt-nfqueue
   - kmod-ipt-raw6
   - kmod-ipt-tarpit
-  - kmod-nf-nathelper
-  - kmod-nf-nathelper-extra
-  - kmod-nfnetlink-log
-  - kmod-nft-core
-  - kmod-nft-nat
-  - kmod-nft-nat6
 
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
