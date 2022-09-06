@@ -31,7 +31,22 @@ packages:
   - luci-app-gowebdav
   - luci-app-uugamebooster
   - kmod-ip6tables-extra
+  - kmod-ipt-account
+  - kmod-ipt-chaos
+  - kmod-ipt-compat-xtables
+  - kmod-ipt-condition
+  - kmod-ipt-delude
+  - kmod-ipt-dhcpmac
+  - kmod-ipt-hashlimit
+  - kmod-ipt-iface
+  - kmod-ipt-ipmark
+  - kmod-ipt-ipp2p
+  - kmod-ipt-iprange
+  - kmod-ipt-ipsec
+  - kmod-ipt-ipv4options
   - kmod-ipt-nat-extra
+  - kmod-ipt-raw6
+  - kmod-ipt-tarpit
 
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
