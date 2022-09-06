@@ -5,6 +5,7 @@ feeds:
     uri: https://github.com/NueXini/NueXini_Packages.git
     branch: main
 packages:
+  - default-settings
   - dnsmasq-full
   - luci-theme-argon-2102
   - luci-app-argon-config
@@ -29,7 +30,31 @@ packages:
   - luci-app-hd-idle
   - luci-app-gowebdav
   - luci-app-uugamebooster
-  - default-settings
+  - kmod-ip6tables-extra
+  - kmod-ipt-account
+  - kmod-ipt-chaos
+  - kmod-ipt-compat-xtables
+  - kmod-ipt-condition
+  - kmod-ipt-delude
+  - kmod-ipt-dhcpmac
+  - kmod-ipt-hashlimit
+  - kmod-ipt-iface
+  - kmod-ipt-ipmark
+  - kmod-ipt-ipp2p
+  - kmod-ipt-iprange
+  - kmod-ipt-ipsec
+  - kmod-ipt-ipv4options
+  - kmod-ipt-nat-extra
+  - kmod-ipt-nflog
+  - kmod-ipt-nfqueue
+  - kmod-ipt-raw6
+  - kmod-ipt-tarpit
+  - kmod-nf-nathelper
+  - kmod-nf-nathelper-extra
+  - kmod-nfnetlink-log
+  - kmod-nft-core
+  - kmod-nft-nat
+  - kmod-nft-nat6
 
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
