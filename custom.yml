@@ -32,11 +32,7 @@ packages:
   - luci-app-uugamebooster
   - kmod-ip6tables-extra
   - kmod-ipt-compat-xtables
-  - kmod-ipt-dhcpmac
-  - kmod-ipt-iface
   - kmod-ipt-ipmark
-  - kmod-ipt-ipp2p
-  - kmod-ipt-iprange
   - kmod-ipt-nat-extra
 
 diffconfig: |
