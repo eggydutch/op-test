@@ -7,17 +7,6 @@ feeds:
 packages:
   - default-settings
   - dnsmasq-full
-  - luci-theme-argon-2102
-  - luci-app-argon-config
-  - luci-app-cifsd
-  - luci-app-openclash
-  - luci-app-autoreboot
-  - luci-app-ttyd
-  - luci-app-cpufreq
-  - luci-app-ramfree
-  - luci-app-vlmcsd
-  - luci-app-upnp
-  - luci-app-wifischedule
   - kmod-ip6tables-extra
   - kmod-ipt-compat-xtables
   - kmod-ipt-ipmark
