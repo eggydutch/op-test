@@ -5,7 +5,11 @@ feeds:
     uri: https://github.com/NueXini/NueXini_Packages.git
     branch: main
 packages:
+  - default-settings
   - dnsmasq-full
+  - luci-theme-argon-2102
+  - luci-app-argon-config
+  - luci-app-openclash
   - kmod-ip6tables-extra
   - kmod-ipt-compat-xtables
   - kmod-ipt-ipmark
