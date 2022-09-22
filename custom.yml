@@ -6,9 +6,6 @@ feeds:
     branch: main
 packages:
   - dnsmasq-full
-  - luci-theme-argon-2102
-  - luci-app-argon-config
-  - luci-app-openclash
   - kmod-ip6tables-extra
   - kmod-ipt-compat-xtables
   - kmod-ipt-ipmark
