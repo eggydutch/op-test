@@ -10,8 +10,6 @@ packages:
   - luci-theme-argon-2102
   - luci-app-argon-config
   - luci-app-openclash
-  - luci-app-vssr
-  - hysteria
   - luci-app-autoreboot
   - luci-app-ttyd
   - luci-app-cpufreq
