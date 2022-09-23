@@ -9,7 +9,6 @@ packages:
   - luci-app-accesscontrol
   - luci-theme-argon-2102
   - luci-app-argon-config
-  - luci-app-cifsd
   - luci-app-openclash
   - luci-app-vssr
   - hysteria
@@ -17,10 +16,6 @@ packages:
   - luci-app-ttyd
   - luci-app-cpufreq
   - luci-app-ramfree
-  - luci-app-usb-printer
-  - luci-app-vlmcsd
-  - luci-app-wrtbwmon
-  - luci-app-wifischedule
 
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
