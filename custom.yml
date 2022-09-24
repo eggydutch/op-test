@@ -14,6 +14,10 @@ packages:
   - luci-app-ttyd
   - luci-app-cpufreq
   - luci-app-ramfree
+  - luci-app-usb-printer
+  - luci-app-vlmcsd
+  - luci-app-wrtbwmon
+  - luci-app-wifischedule
 
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
