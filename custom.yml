@@ -18,6 +18,10 @@ packages:
   - luci-app-vlmcsd
   - luci-app-wrtbwmon
   - luci-app-wifischedule
+  - luci-app-passwall2
+  - luci-app-diskman
+  - luci-app-hd-idle
+  - luci-app-gowebdav
 
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
