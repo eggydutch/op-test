@@ -22,7 +22,10 @@ packages:
   - luci-app-hd-idle
   - luci-app-gowebdav
   - luci-app-vssr
-
+  - luci-app-transmission
+  - transmission-web
+  - luci-app-cifsd
+  
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
   CONFIG_PACKAGE_wpad=n
