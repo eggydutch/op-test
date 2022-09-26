@@ -22,6 +22,7 @@ packages:
   - luci-app-hd-idle
   - luci-app-gowebdav
   - luci-app-vssr
+  - hysteria
   - luci-app-transmission
   - transmission-web
   - luci-app-cifsd
