@@ -25,6 +25,7 @@ packages:
   - luci-app-transmission
   - transmission-web
   - luci-app-cifsd
+  - luci-app-passwall2
   
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
