@@ -3,10 +3,6 @@ name: Slate-AXT1800
 on:
   workflow_dispatch:
     inputs:
-      ssh:
-        description: 'SSH connection to Actions'
-        required: false
-        default: 'false'
       device:
         description: '选择设备'     
         required: false
