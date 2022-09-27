@@ -38,7 +38,6 @@ diffconfig: |
   CONFIG_PACKAGE_xray-plugin=y
   CONFIG_PACKAGE_trojan=y
   CONFIG_PACKAGE_ipt2socks=y
-  CONFIG_PACKAGE_hysteria=y
   CONFIG_PACKAGE_shadowsocks-libev-ss-local=y
   CONFIG_PACKAGE_shadowsocks-libev-ss-redir=y
   CONFIG_PACKAGE_shadowsocksr-libev-ssr-check=y
