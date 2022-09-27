@@ -4,12 +4,6 @@ feeds:
   - name: NueXini_Packages
     uri: https://github.com/NueXini/NueXini_Packages.git
     branch: main
-  - name: VSSR
-    uri: https://github.com/jerrykuku/luci-app-vssr.git
-    branch: master
-  - name: VSSR_maxminddb
-    uri: https://github.com/jerrykuku/lua-maxminddb.git
-    branch: master  
 packages:
   - default-settings
   - luci-app-accesscontrol
@@ -40,3 +34,15 @@ diffconfig: |
   CONFIG_LUCI_LANG_zh_Hans=y
   CONFIG_BUSYBOX_CUSTOM=y
   CONFIG_BUSYBOX_CONFIG_FEATURE_FLOAT_SLEEP=y
+  CONFIG_PACKAGE_xray-core=y
+  CONFIG_PACKAGE_xray-plugin=y
+  CONFIG_PACKAGE_trojan=y
+  CONFIG_PACKAGE_ipt2socks=y
+  CONFIG_PACKAGE_hysteria=y
+  CONFIG_PACKAGE_shadowsocks-libev-ss-local=y
+  CONFIG_PACKAGE_shadowsocks-libev-ss-redir=y
+  CONFIG_PACKAGE_shadowsocksr-libev-ssr-check=y
+  CONFIG_PACKAGE_shadowsocksr-libev-ssr-local=y
+  CONFIG_PACKAGE_shadowsocksr-libev-ssr-redir=y
+  CONFIG_PACKAGE_shadowsocksr-libev-ssr-server=y
+  CONFIG_PACKAGE_simple-obfs-client=y
